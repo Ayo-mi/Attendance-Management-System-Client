@@ -138,7 +138,7 @@ namespace Attendance_Management_System_Client.Biometric
 
             if (!IsAlreadySignedInToday(empde))
             {
-				if (empde["cu_st"].ToString().Equals("0"))				
+				if (empde["cu_st"].ToString().Equals("0"))			
 				{
 					DBConnection dB = new DBConnection();
 					String id = Guid.NewGuid().ToString("B").ToUpper();
